@@ -70,12 +70,20 @@
     border:solid 2px $orange ;
     background-color: transparent;
 
+    transition: background-color ease 0.5s, transform ease 0.5s;
+
+    &:hover{
+        background-color: $orange;
+        transform: scale(1.2);
+    }
+
     @media all and (min-width: 768px){
         width: 91px;
     }
     @media all and (min-width: 1200px){
         width: 160px;
     }
+
 }
 .section-tips__link{
     text-decoration: none;
@@ -84,6 +92,12 @@
     color: $orange;
     text-align: center;
     padding: 10px 17px;
+
+    transition: color ease 0.5s;
+
+    &:hover{
+        color: $white;
+    }
 
     @media all and (min-width: 768px){
         padding: 10px 25px;
@@ -174,6 +188,14 @@
     border-radius: 22.5px;
     border: none;
 
+    transition: background-color ease 0.5s, transform ease 0.5s, border ease 0.5s;
+
+    &:hover{
+        background-color: $white;
+        transform: scale(1.2);
+        border:solid 2px $orange ;
+    }
+
     @media all and (min-width: 768px){
         margin-top: 60px;
         width: 210px;
@@ -188,12 +210,19 @@
     font-family: $font-text;
     font-size: 20px;
     line-height: 45px;
-    padding: 14px 24px;
+    padding: 12px 22px;
+
+    transition: color ease 0.5s;
+
+    &:hover{
+        color: $orange;
+    }
+
 
     @media all and (min-width: 768px){
-        padding: 14px 37px;
+        padding: 14px 35px;
     }
     @media all and (min-width: 1200px){
-        padding: 14px 60px;
+        padding: 14px 58px;
     }
 }
