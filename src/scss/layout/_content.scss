@@ -98,11 +98,15 @@
 
 .section-reasons{
     background-color: $ice-blue;
-    padding: 30px 15px 0;
+    padding: 30px 15px 60px;
     width: 100%;
     height: auto;
     text-align: center;
     box-sizing: border-box;
+    
+    @media all and (min-width: 768px){
+        padding: 30px 40px 60px;
+    }
 }
 .section-reasons__title{
     width: 100%;
@@ -113,26 +117,46 @@
     text-align: center;
     color: $black;
     text-transform: capitalize;
+    @media all and (min-width: 768px){
+        font-size: 26px;
+        line-height: 45px;
+    }
 }
 .section-reasons__list{
     list-style: none;
-    margin: 45px 55px 0;
+    margin: 45px 70px 0;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, minmax(148px, auto));
+
+    @media all and (min-width: 768px){
+        margin: 45px 0 0;
+        grid-template-columns: repeat(3, minmax(193px, auto));
+        grid-template-rows: 1fr; 
+        gap: 30px;
+    }
 }
 .section-reasons__list--item-title{
     width: 100%;
     font-family: $font-title;
     font-size: 18px;
     line-height: 30px;
+    
+    @media all and (min-width: 768px){
+        margin-bottom: 14px;
+        font-size: 24px;
+    }
 }
 .section-reasons__list--item-text{
     width: 100%;
     font-family: $font-text;
     font-size: 18px;
     line-height: 30px;
+
+    @media all and (min-width: 768px){
+        font-size: 20px;
+    }
 }
 .section-reasons__button{
     width: 184px;
@@ -140,7 +164,11 @@
     background-color: $orange;
     border-radius: 22.5px;
     border: none;
-    margin:0 auto 60px;
+
+    @media all and (min-width: 768px){
+        margin-top: 60px;
+        width: 210px;
+    }
 }
 .section-reasons__link{
     text-decoration: none;
@@ -149,4 +177,8 @@
     font-size: 20px;
     line-height: 45px;
     padding: 14px 24px;
+
+    @media all and (min-width: 768px){
+        padding: 14px 37px;
+    }
 }
