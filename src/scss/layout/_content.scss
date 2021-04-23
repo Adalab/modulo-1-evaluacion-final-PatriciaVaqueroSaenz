@@ -1,0 +1,55 @@
+//SECTION 1
+
+ .section-tips{
+    padding: 30px 15px 45px;
+    width: 100%;
+    height: auto;
+    background-color: $white;
+    box-sizing: border-box;
+}
+.section-tips__subtitle{
+    width: 90px;
+    height: 30px;
+    font-family: $font-text;
+    font-size: 14px;
+    line-height: 30px;
+    color: $lightblue;
+}
+.section-tips__title{
+    width: 100%;
+    height: auto;
+    font-family: $font-title;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-style: bold;
+    margin-top: 1px;
+}
+.section-tips__text{
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    font-family: $font-text;
+    font-size: 18px;
+    line-height: 30px;
+    color: $greyish-brown;
+}
+.section-tips__button{
+    margin-top: 30px;
+    width: 76px;
+    height: 45px;
+    border-radius: 22.5px;
+    border:solid 2px $orange ;
+    background-color: transparent;
+}
+.section-tips__link{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 40px;
+    color: $orange;
+    text-align: center;
+    padding: 10px 17px;
+}
+
+
+//SECTION 2
