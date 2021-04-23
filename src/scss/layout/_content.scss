@@ -107,6 +107,9 @@
     @media all and (min-width: 768px){
         padding: 30px 40px 60px;
     }
+    @media all and (min-width: 1200px){
+        padding: 60px 85px 60px;
+    }
 }
 .section-reasons__title{
     width: 100%;
@@ -121,6 +124,9 @@
         font-size: 26px;
         line-height: 45px;
     }
+    @media all and (min-width: 768px){
+        font-size: 32px;
+    }
 }
 .section-reasons__list{
     list-style: none;
@@ -132,9 +138,12 @@
 
     @media all and (min-width: 768px){
         margin: 45px 0 0;
-        grid-template-columns: repeat(3, minmax(193px, auto));
+        grid-template-columns: repeat(3, minmax(193px, 1fr));
         grid-template-rows: 1fr; 
         gap: 30px;
+    }
+    @media all and (min-width: 1200px){
+        grid-template-columns: repeat(3, minmax(290px, 1fr));
     }
 }
 .section-reasons__list--item-title{
@@ -169,6 +178,9 @@
         margin-top: 60px;
         width: 210px;
     }
+    @media all and (min-width: 1200px){
+        width: 255px;
+    }
 }
 .section-reasons__link{
     text-decoration: none;
@@ -180,5 +192,8 @@
 
     @media all and (min-width: 768px){
         padding: 14px 37px;
+    }
+    @media all and (min-width: 1200px){
+        padding: 14px 60px;
     }
 }
