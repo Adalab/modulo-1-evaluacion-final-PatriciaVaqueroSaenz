@@ -48,7 +48,7 @@
     height: auto;
     text-align: center;
     color: $white;
-    margin-top: 15px;
+    margin-top: 10px;
 
     @media all and (min-width: 768px){
         font-size: 24px;
@@ -67,10 +67,21 @@
     line-height: 45px;  
     margin-top: 45px;
 
+    animation: up-down 0.4s alternate infinite ease-in;
+
     @media all and (min-width: 768px){
         margin-top: 30px;
     }
 }
 .hero__button--icon{
     vertical-align: middle;
+}
+
+@keyframes up-down{
+    from {
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(20%);
+    }
 }
