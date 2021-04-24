@@ -23,7 +23,18 @@
     text-align: center;
     line-height: 45px;
     transform: translate(0,-50%); 
+    animation: up-down 0.5s infinite ease-in alternate;
 }
+
+@keyframes up-down{
+    from {
+        transform: translateY(-50%);
+    }
+    to{
+        transform: translateY(-70%);
+    }
+}
+
 .footer__button--icon{
     vertical-align: middle;
 }
