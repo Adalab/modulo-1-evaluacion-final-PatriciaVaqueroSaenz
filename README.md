@@ -18,7 +18,8 @@ Hay 3 tipos de ficheros y carpetas:
 
 ### Pasos a seguir para arrancar el proyecto desde tu ordenador:
 
-1. Clonar este repo (no podrás añadir commits).
+1. No clonar este repo (porque no podrás añadir commits), descargarlo.
+1. Crear un repo nuevo y añadir los archivos descargados.
 1. **Abre una terminal** en la carpeta raíz de tu repositorio.
 1. **Instala las dependencias** locales ejecutando en la terminal el comando:
 
