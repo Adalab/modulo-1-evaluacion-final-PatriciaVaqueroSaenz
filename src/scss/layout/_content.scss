@@ -70,7 +70,7 @@
     border:solid 2px $orange ;
     background-color: transparent;
 
-    transition: background-color ease 0.5s, transform ease 0.5s;
+    transition: background-color ease 0.2s, transform ease 0.2s;
 
     &:hover{
         background-color: $orange;
@@ -88,12 +88,11 @@
 .section-tips__link{
     text-decoration: none;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 20px;
     color: $orange;
     text-align: center;
     padding: 10px 17px;
-
-    transition: color ease 0.5s;
+    transition: color ease 0.1s;
 
     &:hover{
         color: $white;
@@ -209,8 +208,8 @@
     color: $white;
     font-family: $font-text;
     font-size: 20px;
-    line-height: 45px;
-    padding: 12px 22px;
+    line-height: 20px;
+    padding: 10px 20px;
 
     transition: color ease 0.5s;
 
@@ -220,9 +219,9 @@
 
 
     @media all and (min-width: 768px){
-        padding: 14px 35px;
+        padding: 12px 35px;
     }
     @media all and (min-width: 1200px){
-        padding: 14px 58px;
+        padding: 12px 58px;
     }
 }
