@@ -109,6 +109,9 @@
   font-size: 14px;
   line-height: 30px;
 }
+.footer__copy--slogan {
+  text-transform: lowercase;
+}
 .footer__heart {
-  color: red;
+  color: $orange;
 }
