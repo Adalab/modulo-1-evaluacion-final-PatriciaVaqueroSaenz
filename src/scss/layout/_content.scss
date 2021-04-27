@@ -13,6 +13,13 @@
     padding: 60px 275px 60px;
   }
 }
+.container{
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
 .section-tips__subtitle {
   width: 90px;
   height: 30px;
@@ -42,6 +49,7 @@
     font-size: 26px;
     line-height: 45px;
     margin-top: 0;
+    order: -1;
   }
   @media all and (min-width: 1200px) {
     font-size: 32px;
@@ -49,7 +57,7 @@
 }
 .section-tips__text {
   margin-top: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   width: 100%;
   height: auto;
   font-family: $font-text;
@@ -69,20 +77,21 @@
   line-height: 45px;
   display: inline-block;
   border-radius: 22.5px;
-  border: solid 2px $orange;
-  background-color: transparent;
+  border: none;
+  background-color: $orange;
   text-decoration: none;
   font-family: $font-text;
   font-size: 20px;
-  color: $orange;
+  color: $white;
   text-align: center;
 
-  transition: background-color ease 0.2s, transform ease 0.2s, color ease 0.1s;
+  transition: background-color ease 0.2s, transform ease 0.2s, color ease 0.1s, border ease 0.2s;
 
   &:hover {
-    background-color: $orange;
+    background-color: $white;
     transform: scale(1.2);
-    color: $white;
+    color: $orange;
+    border: 2px solid $orange
   }
 
   @media all and (min-width: 768px) {
